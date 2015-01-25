@@ -71,6 +71,6 @@ if ( !file_exists($file_dir)) die ( "Directory $file_dir is not found in root fo
         echo "</ol>";
 
         // Close connection
-        $mysqli = null;
+        $conn = null;
     }
 
